@@ -6,7 +6,17 @@ namespace _02._Password
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string uName = Console.ReadLine();
+            string uPass = Console.ReadLine();
+
+            string password = Console.ReadLine();
+            while (password != uPass)
+            {
+                password = Console.ReadLine();
+
+            }
+            Console.WriteLine($"Welcome {uName}!");
         }
     }
 }
+
