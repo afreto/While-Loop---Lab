@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace _01._Read_Text
+namespace _07._Min_Number
 {
     class Program
     {
         static void Main(string[] args)
         {
-
+            Console.WriteLine("Hello World!");
         }
     }
 }
