@@ -6,7 +6,18 @@ namespace _07._Min_Number
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string input = Console.ReadLine();
+            int min = int.MaxValue;
+            while (input != "Stop")
+            {
+                int num = int.Parse(input);
+                if (num <= min)
+                {
+                    min = num;
+                }
+                input = Console.ReadLine();
+            }
+            Console.WriteLine(min);
         }
     }
 }
